@@ -1,0 +1,27 @@
+.layout{
+			width: 600px;
+			height: 600px;
+			margin: auto;
+			/*background: #ff00ff;*/
+			background: url('railstation.JPG');
+			border: 1px solid red;
+			border-radius: 10px;
+		}
+.centerlized{
+			text-align: center;
+		}
+.fontfix{
+			font-family: sans-serif;
+			font-weight: 300px;
+			font-size: 28px;
+			color:#2f3232;
+		}
+.button-large{
+			width: 40%;
+			height: 10%;
+			font-weight: bold;
+			font-size: 20px;
+			color:white;
+			background: blue;
+			border-radius: 10px;
+		}

@@ -1,0 +1,35 @@
+.layout{
+		width: 600px;
+		height: 600px;
+		margin: auto;
+		box-sizing: border-box;
+		border-radius: 15px;
+		background: #a4a6a6;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-family: sans-serif;
+		font-weight: bolder;
+
+		}
+.formdesign{
+	width: 60%;
+	height:70%;
+	margin: auto;
+	text-align: justify;
+	background: #2f3232;
+	display: grid;
+	padding: 20px;
+	color: #fff;
+}
+.formdesign imput{
+	border-radius: 10px;
+	/*width: 100px;*/
+}
+#subject,#grade{
+	height: 50px;
+}
+#submit{
+	font-weight: bold;
+	font-size: 20px;
+}
