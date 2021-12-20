@@ -1,0 +1,79 @@
+body{
+    background-color: #363636;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    display: block; 
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.title-header-container{
+    background-color: #4D0257;
+    padding: 5px;
+    text-align: center;
+}
+#title-header{
+    color: rgb(255, 255, 255);
+}
+.input_group{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #2C2928;
+    display: none;
+}
+.list-container{
+    background-color: #2C2928;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.input-box{
+    width: 250px;
+    height: 26px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 190, 190) ;
+    outline: none;
+    background-color: #2C2928;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+
+}
+.submit-button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color:#fff;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.task_button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color:#fff;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task_adding_button{
+    width: 100%;
+    background-color:#2C2928;
+    text-align: center;
+    
+}
+
+

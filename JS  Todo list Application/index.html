@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <!-- custom css stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Praise&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- container head section -->
+        <div class="title-header-container">
+            <h2 id="title-header">Tasks Manager</h2>
+            <p id="count_list" style="color:azure"></p>
+        </div>
+        <!-- task adding button -->
+        <div class="task_adding_button">
+            <button type="button" class="task_button">+ New task</button>
+        </div>
+        <!-- input group -->
+        <div class="input_group"> 
+            <form>
+                <input type="text" name="item" id="item" class="input-box" placeholder="add task">
+                <button type="button" id="submit-button" class="submit-button">Add</button>
+            </form>
+        </div>
+        <!-- node list -->
+        <div class="list-container">
+            <ul id="node_list"></ul>
+        </div>
+        
+    </div>
+    <!-- script -->
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
